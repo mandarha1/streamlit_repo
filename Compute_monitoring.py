@@ -83,6 +83,7 @@ def wh_data(session):
                 #for value in data['Year-Month']:
                  #   print(value, ":", data['Year-Month'][value])
                 data = selection["selected_rows"][0]['Year-Month']
+                st.write(data)
                 
                 
                 

@@ -94,7 +94,7 @@ def wh_data(session):
             
         with col2:
             st.markdown("**:red[Monthly Credit Consumtpion - Graph]**")
-            #df_wh_month = raw_wh_df.filter(col("Year-Month") == data)
+            df_wh_month = raw_wh_df.filter(col("Year-Month") == data)
             #st.bar_chart(df_wh_month,x="WAREHOUSE_NAME",y="Total Credit Consumption")
             #st.markdown("**:red[Warehouse Credit Consumtpion - Graph]**")
             #st.bar_chart(snow_df_co2,x="Warehouse Name",y="Total Credit Consumption")

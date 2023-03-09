@@ -79,9 +79,10 @@ def wh_data(session):
             
             if selection:
                 st.write("You selected:")
-                data = st.json(selection["selected_rows"][0])
+                #data = st.json(selection["selected_rows"][0])
                 #for value in data['Year-Month']:
                  #   print(value, ":", data['Year-Month'][value])
+                data = selection["selected_rows"][0]['Year-Month']
                 
                 
                 
